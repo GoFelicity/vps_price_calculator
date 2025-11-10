@@ -8,7 +8,7 @@
 
 | 演示地址 | 状态 |
 |---------|------|
-| [Netlify+Vercel]((https://vps-price-calculator.komari.wiki/) | ✅ 可用 |
+| [Netlify+Vercel](https://vps-price-calculator.komari.wiki/) | ✅ 可用 |
 
 ## 📱 界面预览
 
