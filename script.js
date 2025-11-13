@@ -26,7 +26,7 @@ async function ensureRates() {
         return __ratesCache.rates;
     }
     try {
-        const res = await fetch(`https://throbbing-sun-9eb6.b7483311.workers.dev`);
+        const res = await fetch(`https://exchange-rate.komari.wiki`);
         if (!res.ok) throw new Error('rate http error');
         const data = await res.json();
         if (!data || !data.rates) throw new Error('rate format error');
@@ -439,7 +439,7 @@ function fetchExchangeRate(isFromUrlLoad = false) {
   const currency = document.getElementById('currency').value;
   const customRateField = document.getElementById('customRate');
   
-  return fetch(`https://throbbing-sun-9eb6.b7483311.workers.dev`)
+  return fetch(`https://exchange-rate.komari.wiki`)
   .then(response => {
     if (!response.ok) {
       throw new Error(`HTTP error! 状态: ${response.status}`);
