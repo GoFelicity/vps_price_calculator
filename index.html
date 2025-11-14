@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>剩余价值计算器</title>
-    <script src="./version.js"></script>
+    
 
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -122,38 +122,15 @@
       })();
     </script>
 
-    <script type="importmap">
-      {
-        "imports": {
-          "@material/web/": "https://gcore.jsdelivr.net/npm/@material/web/"
-        }
-      }
-    </script>
-    <script type="module">
-      import "@material/web/all.js";
-      import { styles as typescaleStyles } from "@material/web/typography/md-typescale-styles.js";
-      document.adoptedStyleSheets.push(typescaleStyles.styleSheet);
-    </script>
+    <script type="module" src="/src/main.js" defer></script>
 
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
     />
-    <link
-      rel="stylesheet"
-      href="https://gcore.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css"
-    />
-    <script src="https://gcore.jsdelivr.net/npm/flatpickr" defer></script>
-    <script
-      src="https://gcore.jsdelivr.net/npm/flatpickr/dist/l10n/zh.js"
-      defer
-    ></script>
+    
     <script
       src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"
-      defer
-    ></script>
-    <script
-      src="https://gcore.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"
       defer
     ></script>
 
@@ -609,6 +586,6 @@
       </md-elevated-card>
     </div>
 
-    <script src="./script.js" data-version></script>
+    
   </body>
 </html>
